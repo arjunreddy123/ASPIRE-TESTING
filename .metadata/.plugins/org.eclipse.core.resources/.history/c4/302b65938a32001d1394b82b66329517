@@ -1,0 +1,16 @@
+package Practicepack;
+
+public class Array2 
+{
+
+	public static void main(String[] args)
+	{
+		String s[][]= {{"arjun","ugile"}};
+		for(String[] w:s)
+		{
+			System.out.println(w);
+		}
+
+	}
+
+}

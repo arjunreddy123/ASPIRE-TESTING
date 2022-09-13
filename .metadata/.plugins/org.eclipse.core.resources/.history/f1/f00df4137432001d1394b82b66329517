@@ -1,0 +1,15 @@
+package StringS;
+
+public class Trimmethod 
+{
+
+	public static void main(String[] args) 
+	{
+		String s="Arjun ugile";
+		s.trim();
+		System.out.println(s+" javaclass");
+		System.out.println(s.trim()+" javaclass");//with trim
+
+	}
+
+}

@@ -1,0 +1,31 @@
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class practice_getcommand 
+{
+
+	public static void main(String[] args) 
+	{
+		String key="webdriver.chrome.driver";
+		String value="C:\\Users\\arnav\\OneDrive\\Desktop\\JAVA PROJECT\\June2022_Selenium\\Driver\\chromedriver.exe";
+		String url="https://www.flipkart.com/";
+		
+		
+		System.setProperty(key, value);
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(url);
+		//System.out.println(driver.getPageSource());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		Dimension size = driver.manage().window().getSize();
+		System.out.print(size);
+		Dimension s=new Dimension(500, 300);
+		driver.manage().window().setSize(s);
+
+
+
+	}
+
+}

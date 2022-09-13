@@ -1,0 +1,23 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Practicenavigate 
+{
+
+	public static void main(String[] args) 
+	{
+
+		String key="webdriver.chrome.driver";
+		String value="C:\\Users\\arnav\\OneDrive\\Desktop\\JAVA PROJECT\\June2022_Selenium\\Driver\\chromedriver.exe";
+		String url="https://www.flipkart.com/";
+		String url1="https://www.google.co.in/";
+		String url3="https://en-gb.facebook.com/";
+		System.setProperty(key, value);
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.navigate().to(url1);
+		//driver.get(url1);
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package Fundamentals;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class fundamentals 
+{
+
+	public static void main(String[] args) 
+	{
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\arnav\\OneDrive\\Desktop\\JAVA PROJECT\\June2022_Selenium\\Driver\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.flipkart.com/mobiles/~cs-1c8v939u5p/pr?sid=tyy%2C4io&collection-tab-name=POCO%20X2&otracker=nmenu_sub_Electronics_0_Poco%20X2");
+		//driver.findElement(By.name("q")).sendKeys("iphone");
+		
+		List<WebElement> listofelement = driver.findElements(By.className("_2I9KP_"));
+		for(WebElement eachelement:listofelement)
+		{
+			System.out.println(eachelement.getText());
+		}
+		
+    }
+
+}

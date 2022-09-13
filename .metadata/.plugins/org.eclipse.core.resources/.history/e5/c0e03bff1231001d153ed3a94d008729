@@ -1,0 +1,20 @@
+package StringS;
+
+import java.util.Arrays;
+
+public class reversearraystrig 
+{
+
+	
+
+	public static void main(String[] args) 
+	{
+		String s="Arjun";
+		for(int i=4;i<0;i--)
+		{
+			System.out.println(s.charAt(i));
+		}
+
+	}
+
+}

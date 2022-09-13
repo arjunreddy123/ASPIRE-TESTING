@@ -1,0 +1,18 @@
+package StringS;
+
+import java.util.Arrays;
+
+public class printsepratestringnnumber 
+{
+
+	public static void main(String[] args) 
+	{
+	    String str="Arjun 77759";
+	    String[] part = str.split("(?<=\\D)(?=\\d)");
+	    System.out.println(part[0]);
+	    System.out.println(part[1]);
+	  
+
+	}
+
+}

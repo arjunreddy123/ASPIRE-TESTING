@@ -1,0 +1,21 @@
+package StringS;
+
+import java.util.Arrays;
+
+public class reversearraystrig 
+{
+
+	private static final char[][] CharAt = null;
+
+	public static void main(String[] args) 
+	{
+		String s[]= {"Arjun"};
+		Arrays.sort(s);
+		for(int i=s.length;i<0;i--)
+		{
+			System.out.println(CharAt[i]);
+		}
+
+	}
+
+}

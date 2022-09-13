@@ -1,0 +1,10 @@
+package StringS;
+
+public class StringBuilder1 
+{
+public static void main(String[] args) 
+{
+    s="arjun ugile";
+  String[] word = s.split(" ");
+}
+}

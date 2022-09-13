@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 packages to &apos;YouTube Programs/src/Practicepack&apos;&#x0D;&#x0A;- Destination element: &apos;YouTube Programs/src/Practicepack&apos;" description="Copy packages" destination="=YouTube Programs/src&lt;Practicepack" flags="589830" fragments="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1662950956331" version="1.0"/>
+</session>

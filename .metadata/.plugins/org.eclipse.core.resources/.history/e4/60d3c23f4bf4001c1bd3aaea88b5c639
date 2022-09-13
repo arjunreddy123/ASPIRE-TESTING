@@ -1,0 +1,14 @@
+
+public class jump 
+{
+
+	public static void main(String[] args, Object system) 
+	{
+      for(int i=1;i<=10;++i);
+      
+     
+	system.out.print(i+"");
+
+	}
+
+}

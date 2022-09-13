@@ -1,0 +1,15 @@
+package Casting;
+
+public class sample 
+{
+
+	public static void main(String[] args) 
+	{
+		byte b=100;
+		int i=b;
+		long l=b;
+		System.out.println(l);
+
+	}
+
+}

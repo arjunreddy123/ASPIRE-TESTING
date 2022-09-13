@@ -1,0 +1,26 @@
+package Multiwindowhandle;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class sbibank 
+{
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		String key="webdriver.chrome.driver";
+		String value="C:\\\\Users\\\\arnav\\\\OneDrive\\\\Desktop\\\\JAVA PROJECT\\\\June2022_Selenium\\\\Driver\\\\chromedriver.exe";
+		String url="https://www.onlinesbi.sbi/";
+        System.setProperty(key, value);
+        WebDriver driver=new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get(url);
+        driver.findElement(By.xpath("(//*[@class='list-group-item col-md-3'])[2]")).click();
+        Thread.sleep(2000);
+        //driver.findElement(By.xpath("(//*[@class='list-group-item col-md-3'])[8]")).click();
+        
+
+	}
+
+}

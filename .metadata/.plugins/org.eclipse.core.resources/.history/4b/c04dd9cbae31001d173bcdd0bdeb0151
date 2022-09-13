@@ -1,0 +1,14 @@
+package StringS;
+
+public class CovertStringtoArray 
+{
+
+	public static void main(String[] args) 
+	{
+		String s[]={"arjun","ugile","latur"};
+		String str=s.toString();
+		System.out.println(str);
+
+	}
+
+}

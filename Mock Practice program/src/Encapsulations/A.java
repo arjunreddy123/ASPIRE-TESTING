@@ -1,0 +1,18 @@
+
+package Encapsulations;
+
+public class A 
+{ 
+	private int value;        //data hiding
+	
+	
+	public void setvalue(int x)
+	{ 
+		value=x;
+	}
+	public int getvalue()
+	{
+		return value;   //++value
+	}
+
+}

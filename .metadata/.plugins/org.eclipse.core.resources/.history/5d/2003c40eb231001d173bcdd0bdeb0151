@@ -1,0 +1,21 @@
+package StringS;
+
+public class countstring 
+{
+
+	public static void main(String[] args) 
+	{
+		String s="arjun arjun";
+		char a='a';
+		int count =0;
+		for(int i=0;i<=s.length();i++)
+		{
+			if(s.charAt(i)==a)
+			{
+				count++;
+			}
+		}
+		 System.out.println("The character '" + a + "' found " + count + " times in a string '" + s+ "'.");
+	}
+
+}

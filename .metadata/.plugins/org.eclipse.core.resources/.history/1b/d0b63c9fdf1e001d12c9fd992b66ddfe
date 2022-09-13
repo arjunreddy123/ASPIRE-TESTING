@@ -1,0 +1,29 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class collection1 
+{
+
+	public class ArrayListCollection 
+		{
+			public static void main(String[] args) 
+			{
+				ArrayList al= new ArrayList();
+				System.out.println(al.isEmpty());
+				al.add("Arjun");
+				al.add("Reddy");
+				al.add(77759777);
+				al.add(92.56);
+				al.add(null);
+				al.add('A');
+				al.add(true);
+				al.add("Reddy");
+				al.add(null);
+				al.add(null);
+				System.out.println(al);
+
+	}
+
+}
+}

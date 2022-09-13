@@ -1,0 +1,14 @@
+package Practicepack;
+
+public class Stringss 
+{
+
+	public static void main(java.lang.String[] args) 
+	{
+	
+		String s="Arjun";
+	    System.out.println(s.substring(2, 3));
+
+	}
+
+}

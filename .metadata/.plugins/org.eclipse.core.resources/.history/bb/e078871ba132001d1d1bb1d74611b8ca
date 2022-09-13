@@ -1,0 +1,14 @@
+package Practicepack;
+
+public class TestEmpyid 
+{
+
+	public static void main(String[] args) 
+	{
+		Encapsulations e=new Encapsulations();
+		e.setmethod(100);
+		System.out.println(e.getmethod());
+
+	}
+
+}
