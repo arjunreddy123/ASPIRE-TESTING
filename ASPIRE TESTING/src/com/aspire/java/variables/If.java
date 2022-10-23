@@ -11,11 +11,11 @@ public class If
 			int sum=a+b;
 			System.out.println(sum);
 		}
-       if(a>b)
-       {
+        if(a>b)
+        {
     	   int multi=a*b;
     	   System.out.println("Multiplication is--" +multi);
-       }
+        }
 	}
 
 }

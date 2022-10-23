@@ -1,7 +1,8 @@
 package com.aspire.java.Constructor;
 
 public class DataBase 
-{  //varibale declaration
+{  
+	//varibale declaration
 	String name;
 	int mobno;
 	static String principlename;
@@ -10,7 +11,8 @@ public class DataBase
 	//varibale initialization
 	DataBase()
 	{
-		
+		principlename="ugile";
+		collagename="COEP";
 	}
 	public void collagedata()
 	{
@@ -29,8 +31,8 @@ public class DataBase
 		DataBase Arjun=new DataBase ();
 		Arjun.name="Arjun ugile";
 		Arjun.mobno=901115966;
-		DataBase.collagename="COEP";
-		DataBase.principlename="ugile";
+		//DataBase.collagename="COEP";
+		//DataBase.principlename="ugile";
 		
 		DataBase vaishali=new DataBase();
 		vaishali.name="vaishali";
