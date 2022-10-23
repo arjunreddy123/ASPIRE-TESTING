@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="chrome">
+    <classes>
+      <class name="Framework_INCLUDEEXCLUDE.ParallelExicution">
+      <methods>
+      <include name="chromebrowser"/>
+      <include name="UrLlaunchn"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="firefox">
+    <classes>
+      <class name="Framework_INCLUDEEXCLUDE.ParallelExicution">
+      <methods>
+      <include name="firefoxbrowser"/>
+      <include name="UrLlaunchn"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="edge">
+    <classes>
+      <class name="Framework_INCLUDEEXCLUDE.ParallelExicution">
+      <methods>
+      <include name="edgebrowser"/>
+      <include name="UrLlaunchn"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

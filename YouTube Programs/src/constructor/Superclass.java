@@ -3,7 +3,9 @@ package constructor;
 public class Superclass 
 {
 	
-                                              // constructor of the superclass
+       private static final String String = null;
+
+											// constructor of the superclass
 	    Superclass(int value1, int value2) 
 	   {
 
@@ -16,7 +18,8 @@ public class Superclass
 	    {
 	      System.out.println("The value2 is Greater: " + value2);
 	    }
-
-	  }
+	   }
+	    
 	}
-
+//superclass (String, int)
+//superclass (int,String)

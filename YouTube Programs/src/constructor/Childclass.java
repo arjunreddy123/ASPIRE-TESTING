@@ -12,6 +12,7 @@ public class Childclass extends Superclass
     		  {
     			// call the first constructor
     			  Childclass obj = new Childclass();
+    			  
       		  }
 }
 
